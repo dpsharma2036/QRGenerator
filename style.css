@@ -1,6 +1,6 @@
 :root{
     --background-color:#f49658;
-    --primary-color:#e86262;
+    --primary-color:#2c552e;
     --border-radius:10px;
     --text-color:#ffffff;
     --border-color:#255;
@@ -42,11 +42,40 @@ body{
     width: 100%;
 }
 
-.qr-section input select{
-    padding: 10px;
+.qr-section input, select{
+    padding: 4px;
     border-radius: var(--border-radius);
     font-size: 24px;
     outline: none;
-    border:5px solid var(--border-color) ;
+    border:3px solid var(--border-color) ;
 
+}
+
+.qr-section label{
+    color:var(--text-color);
+    font-size: 24px;
+}
+
+.qr-section div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section a{
+    background-color: var(--background-color);
+    padding: 11px 35px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-inline: 3px;
+    border-radius: var(--border-radius);
+    color: var(--text-color);
+    font-weight: 700;
+
+
+}
+
+.footer-section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
