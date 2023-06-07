@@ -2,7 +2,8 @@
     --background-color:#f49658;
     --primary-color:#e86262;
     --border-radius:10px;
-    --secondary-color:#ffffff;
+    --text-color:#ffffff;
+    --border-color:#255;
     
 }
 
@@ -30,9 +31,22 @@ body{
 
 .qr-section h2{
     text-align: center;
-    font-size:32px;
-    color: var(--secondary-color);
+    font-size:22px;
+    color: var(--text-color);
     margin-bottom: 30px;
     text-transform:uppercase;
+
+}
+.qr-section input{
+    margin-block: 10px;
+    width: 100%;
+}
+
+.qr-section input select{
+    padding: 10px;
+    border-radius: var(--border-radius);
+    font-size: 24px;
+    outline: none;
+    border:5px solid var(--border-color) ;
 
 }
